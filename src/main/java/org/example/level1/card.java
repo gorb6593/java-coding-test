@@ -27,8 +27,8 @@ public class card {
     }
     public static void main(String[] args) {
         card card = new card();
-        String[] card1 = {"월","수","금"};
-        String[] card2 = {"화","목","토","일"};
+        String[] card1 = {"월","수","화"};
+        String[] card2 = {"목","금","토","일"};
         String[] goal = {"월","화","수","목","금","토","일"};
         System.out.println(card.solution(card1,card2,goal));
     }
