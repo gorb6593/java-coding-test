@@ -1,7 +1,7 @@
 package org.example.bacjoon;
 
 import java.util.Scanner;
-
+//https://harrystroy.tistory.com/20
 public class _10807 {
   public static void main(String[] args){
     Scanner sc = new Scanner(System.in);
@@ -14,14 +14,10 @@ public class _10807 {
     int b = sc.nextInt();
     int count = 0;
     for(int j=0; j<a; j++){
-      System.out.println(arr[j]);
       if(b == arr[j]){
         count++;
       }
     }
     System.out.println(count);
-
-
-
   }
 }
