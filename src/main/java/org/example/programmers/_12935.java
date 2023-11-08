@@ -9,7 +9,12 @@ public class _12935 {
 
   public class Solution {
     public int[] solution(int[] arr) {
-      int[] answer = {};
+      //int[] answer = {};
+      if(arr.length == 1){
+        int[] answer = {-1};
+        return answer;
+      }
+      int[] answer = new int[arr.length-1];
       return answer;
     }
   }
