@@ -1,7 +1,7 @@
 package org.example.programmers;
 
 public class Solution_12935 {
-  
+
   public int[] solution(int[] arr) {
     //int[] answer = {};
     if(arr.length == 1){
