@@ -1,6 +1,6 @@
-package org.example.bacjoon;
+package org.example.test3_2;
 
-public class _10988 {
+public class tset0001 {
   public static void main(String[] args){
     int num1 =0;
     int num2 =1;
