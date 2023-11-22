@@ -1,7 +1,7 @@
 package org.example.programmers;
 
+//tstory연동해야함
 public class Solution_12935 {
-
   public int[] solution(int[] arr) {
     //int[] answer = {};
     if(arr.length == 1){
