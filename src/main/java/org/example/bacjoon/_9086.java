@@ -2,6 +2,7 @@ package org.example.bacjoon;
 
 import java.util.Scanner;
 
+//티스토리 연동해야함
 public class _9086 {
   public static void main(String[] args){
     Scanner sc = new Scanner(System.in);

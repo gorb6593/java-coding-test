@@ -1,5 +1,5 @@
 package org.example.bacjoon;
-
+//티스토리 연동해야함
 public class _10988 {
   public static void main(String[] args){
     int num1 =0;
