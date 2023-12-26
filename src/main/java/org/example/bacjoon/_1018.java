@@ -12,6 +12,9 @@ public class _1018 {
       int row = startRow + i;
       for (int j=0; j<8; j++) {
         int col = startCol + j;
+        if (board[row].charAt(col) != orBoard[row % 2].charAt(j)) {
+          whiteSol++;
+        }
       }
     }
     return Math.min(whiteSol, 64 - whiteSol);
