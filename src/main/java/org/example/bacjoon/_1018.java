@@ -5,20 +5,35 @@ import java.util.Scanner;
 
 public class _1018 {
   public static void main(String[] args) {
+/*
+10 13
+BBBBBBBBWBWBW
+BBBBBBBBBWBWB
+BBBBBBBBWBWBW
+BBBBBBBBBWBWB
+BBBBBBBBWBWBW
+BBBBBBBBBWBWB
+BBBBBBBBWBWBW
+BBBBBBBBBWBWB
+WWWWWWWWWWBWB
+WWWWWWWWWWBWB
+ */
+    //입력값 받기
     Scanner sc = new Scanner(System.in);
-    int a = sc.nextInt();
-    int b = sc.nextInt();
 
-    String[][] arr = new String[a][b];
-    System.out.println("a::"+a);
-    System.out.println("b::"+b);
+    int row = sc.nextInt();
+    int col = sc.nextInt();
+    sc.nextLine();
 
-    for(int i=0; i<a; i++) {
-      for(int j=0; j<b; j++) {
-        System.out.println("sc.next::"+sc.next());
-        //arr[i][j] = sc.next();
-      }
+    String[] board = new String[row];
+    System.out.println("row::"+row);
+    System.out.println("col::"+col);
+
+    for(int i=0; i<row; i++) {
+      board[i] = sc.nextLine();
     }
-    System.out.println(Arrays.deepToString(arr));
+    System.out.println(Arrays.toString(board));
+
+
   }
 }
