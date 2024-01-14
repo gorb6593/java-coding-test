@@ -6,7 +6,7 @@ import java.io.InputStreamReader;
 public class _18870 {
   public static void main(String[] args) {
     BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-    
+
 
   }
 }
