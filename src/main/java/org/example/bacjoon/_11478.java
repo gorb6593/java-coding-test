@@ -17,7 +17,7 @@ public class _11478 {
       for (int j=i+1; j<=value.length(); j++) {
         set.add(value.substring(i, j));
       }
-    }g
+    }
 
     //System.out.println("set = " + set);
     System.out.println(set.size());
