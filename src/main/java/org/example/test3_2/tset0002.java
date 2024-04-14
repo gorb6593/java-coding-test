@@ -2,10 +2,15 @@ package org.example.test3_2;
 
 public class tset0002 {
   public static void main(String[] args){
-    String test = "2024-01-18T10:32:00Z";
-    test = test.replaceAll("[A-z]", " ");
-
-    System.out.println("test = " + test);
+    int n,t;
+    n = 7;
+    t = 15;
+    int answer = 0 ;
+    answer = n;
+    for (int i=0; i<t; i++) {
+      answer *= 2;
+    }
+    System.out.println("answer = " + answer);
 
   }
 }
