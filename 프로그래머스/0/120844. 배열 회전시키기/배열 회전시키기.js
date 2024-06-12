@@ -1,5 +1,7 @@
 function solution(numbers, direction) {
     var answer = [];
+    
+    //첫번째랑 마지막은 저장되어야 한다
     var first = numbers[0];
     var last = numbers[numbers.length-1];
     
