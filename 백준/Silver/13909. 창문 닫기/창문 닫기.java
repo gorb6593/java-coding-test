@@ -5,12 +5,12 @@ import java.io.InputStreamReader;
 public class Main {
     public static void main(String[] args) throws IOException {
 
-        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-        int a = Integer.parseInt(br.readLine());
-        int count = 0;
-        for(int i = 1; i * i <= a; i++) {
-            count++;
-        }
-        System.out.println(count);
+//        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+//        int a = Integer.parseInt(br.readLine());
+//        int count = 0;
+//        for(int i = 1; i * i <= a; i++) {
+//            count++;
+//        }
+//        System.out.println(count);
     }
 }
