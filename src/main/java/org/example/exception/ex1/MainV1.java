@@ -1,11 +1,11 @@
-package org.example.exception.ex0;
+package org.example.exception.ex1;
 
 import java.util.Scanner;
 
-public class MainVO {
+public class MainV1 {
 
     public static void main(String[] args) {
-        NetworkServiceVO networkService = new NetworkServiceVO();
+        NetworkServiceV1 networkService = new NetworkServiceV1();
 
         Scanner scanner = new Scanner(System.in);
         while (true) {
